@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salle -Acceuil</title>
+    <title>CampusLink -Salles</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="site-header">
@@ -20,9 +21,9 @@
         <a href="salles.html" aria-current="page">Salles</a>
         <a href="equipements.html">Equipements</a>
         <a href="incidents.html">Incidents</a>
-        <a href="compte.html">declarer un incident</a>
+        <a href="declarer-incident.html">declarer un incident</a>
     </nav>
-    <main class="contenair">
+    <main class="container">
         <section>
             <h2>Salles</h2>
             <p>liste des salles et leur disponibilité</p>
@@ -34,65 +35,66 @@
                     <th>Filliere</th>
                     <th>Capacité</th>
                     <th>Equipements</th>
-                    <th>Status</th>
+                    <th>Statut</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>B101</td>
+                    <td>B01</td>
                     <td>Cyber</td>
                     <td>20</td>
                     <td>2 ecrans tv, Videos projecteur, 1pc</td>
-                    <td class="disponible">Disponible</td>
+                    <td class="statut-ok">Disponible</td>
                 </tr>
                 <tr>
-                    <td>B102</td>
+                    <td>B02</td>
                     <td>Info</td>
                     <td>20</td>
                     <td>2 ecrans TV, 1 videos projecteur</td>
-                    <td class="disponible">disponible</td>
+                    <td class="statut-ok">disponible</td>
                 </tr>
                 <tr>
-                    <td>B103</td>
+                    <td>B03</td>
                     <td>IA data</td>
                     <td>30</td>
                     <td>2 ecrans TV, 1 videos projecteur</td>
-                    <td class="Occupé">Occupé</td>
+                    <td class="statut-attente">Occupé</td>
                 </tr>
                 <tr>
-                    <td>B104</td>
+                    <td>B04</td>
                     <td>LabCyber</td>
                     <td>10</td>
                     <td>5 ecrans, 10 pc</td>
-                    <td>disponible</td>
+                    <td class="statut-ok">disponible</td>
                 </tr>
                 <tr>
-                    <td>B105</td>
+                    <td>B05</td>
                     <td>LabInfo</td>
                     <td>10</td>
                     <td>5 ecrans, 10pc </td>
-                    <td class="indisponible">Indisponible</td>
+                    <td class="statut-alerte">Indisponible</td>
                 </tr>
                 <tr>
-                    <td>B106</td>
+                    <td>B06</td>
                     <td>Lab IA data</td>
                     <td>10</td>
                     <td>2 videaos projecteur, 4 ecrans TV</td>
-                    <td class="Occupé">Occupé</td>
+                    <td class="statut-attente">Occupé</td>
                 </tr>
                 <tr>
-                    <td>B107</td>
+                    <td>B07</td>
                     <td>Conferance</td>
                     <td>100</td>
                     <td>1 video projecteur</td>
-                    <td class="disponible">disponible</td>
+                    <td class="statut-ok">disponible</td>
                 </tr>
 
 
             </tbody>
         </table>
-        <section>
-            <h3>Vue des salles</h3>
+        <h3>Vue des salles</h3>
+        <section class="galerie">
+            
             <figure>
                 <img src="images/cyber.avif" alt="salle: ecran siege" width="400" height="300">
                 <figcaption>salle de la filliere cyber</figcaption>
@@ -114,7 +116,7 @@
         </section>
 
     </main>
-    <footer class="footer">
+    <footer class="site-footer">
         <p>© 2026 CampusLink</p>
     </footer>
 </body>

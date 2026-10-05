@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusLink -Declaration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <h1>CampusLink</h1>
+            <p>Gestion technique du campus</p>
+            
+        </div>
+        
+    </header>
+    <nav class="main-nav" aria-label="navigation principale">
+        <a href="index.html">Tableau de bord</a>
+        <a href="salles.html">Salles</a>
+        <a href="equipements.html">Equipements</a>
+        <a href="incidents.html">Incidents</a>
+        <a href="declarer-incident.html" aria-current="page">Declarer un incident</a>
+    </nav>
+    <main class="container">
+        <section>
+            <h2>Declaration incident</h2>
+            
+        </section>
+        <form action="">
+            <fieldset>
+                <legend>Formulaire de declaration d'incident</legend> 
+                <p>
+                    <label for="nom">Nom: </label>
+                    <input type="text" name="nom" id="nom" autocomplete="nom" placeholder="votre nom" required>
+                </p>
+                <p>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="example@google.com" required>
+                </p>
+                <p>
+                    <label for="salle">Salle: </label>
+                    <select name="salle" id="salle">
+                        <option value="">Selectionnez la salle</option>
+                        <option value="B01">B01</option>
+                        <option value="B02">B02</option>
+                        <option value="B03">B03</option>
+                        <option value="B04">B04</option>
+                        <option value="B05">B05</option>
+                        <option value="B06">B06</option>
+                        <option value="B07">B07</option>
+                        <option value="B08">B08</option>
+                        <option value="B09">B09</option>
+                        <option value="B10">B10</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="equipement">Equipement concerné: </label>
+                    <input type="text" name="equipement" id="equipement" autocomplete="equipement" placeholder="nom de l'equipement" required>
+                </p>
+                <p>
+                    <label for="probleme-panne">Panne </label>
+                    <input type="checkbox" name="probleme" id="probleme-panne" value="panne">
+                    <label for="probleme-casse">Casse </label>
+                    <input type="checkbox" name="probleme" id="probleme-casse" value="casse">
+                    <label for="probleme-reseau">Reseau </label>
+                    <input type="checkbox" name="probleme" id="probleme-reseau" value="reseau">
+                    <label for="probleme-autres">Autres </label>
+                    <input type="checkbox" name="probleme" id="probleme-autres" value="autres">
+                </p>
+                <p>
+                    <label for="priorite-basse">Basse </label>
+                    <input type="radio" name="priorite" id="priorite-basse" value="basse" checked>
+                    <label for="priorite-moyenne">Moyenne </label>
+                    <input type="radio" name="priorite" id="priorite-moyenne" value="moyenne">
+                    <label for="priorite-haute">Haute </label>
+                    <input type="radio" name="priorite" id="priorite-haute" value="haute">
+                </p>
+                <p>
+                    <label for="description">Description: </label>
+                    <textarea name="description" id="description" rows="5"></textarea>
+                </p>
+                <button type="button">Envoyer</button>
+            </fieldset>
+            
+        </form>
+    </main>
+    <footer class="site-footer">
+        <p>© 2026 CampusLink</p>
+        
+
+    </footer>
+</body>
+</html>

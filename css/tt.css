@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+/* corpd de la page */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2937;
+}
+
+/* mon header */
+.site-header{
+    background-color: #17365d;
+    color: white;
+    padding: 20px;
+}
+.site-header h1 {
+    margin: 0;
+}
+/* mon menue */
+.main-nav {
+    background-color: white;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dfe3e8;
+}
+.main-nav a {
+    color: #17365d;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    color: #17365d;
+    padding: 24px 40px;
+
+}
+.container h2 {
+    color: red;
+}
+
+.site-footer {
+    background-color: #17365d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.indicateur {
+    margin-top: 20px;
+
+}
+.carte {
+    background-color: white
+}

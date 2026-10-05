@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CampusLink -Equipements</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="site-header">
         <div>
             <h1>CampusLink</h1>
             
-            
+           <p>Gestion technique  du campus</p> 
             
         </div>
         
     </header>
     <nav class="main-nav" aria-label="navigation principale">
         <a href="index.html">Tableau de bord</a>
-        <a href="salles.html" aria-current="page">Salles</a>
-        <a href="equipements.html">Equipements</a>
+        <a href="salles.html">Salles</a>
+        <a href="equipements.html" aria-current="page">Equipements</a>
         <a href="incidents.html">Incidents</a>
-        <a href="compte.html">declarer un incident</a>
+        <a href="declarer-incident.html">declarer un incident</a>
     </nav>
-    <main class="contenair">
+    <main class="container">
         <section>
             <h2>Equipements</h2>
             <p>liste des equipements disponible</p>
@@ -39,15 +40,44 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>EQ-OO1</td>
+                    <td>EQ-001</td>
                     <td>Ecran1</td>
-                    <td>B1OO1</td>
+                    <td>B01</td>
                     <td>Samsung</td>
-                    <td class="disponible">Fonctionnel</td>
+                    <td class="statut-ok">Fonctionnel</td>
+                    
+                </tr>
+                <tr>
+                    <td>EQ-002</td>
+                    <td>Projecteur</td>
+                    <td>B02</td>
+                    <td>Epson</td>
+                    <td class="statut-ok">Fonctionnel</td>
+                    
+                </tr>
+                <tr>
+                    <td>EQ-003</td>
+                    <td>Projecteur</td>
+                    <td>B03</td>
+                    <td>Epson</td>
+                    <td class="statut-attente">Maintenance</td>
+                    
+                </tr>
+                <tr>
+                    <td>EQ-004</td>
+                    <td>Projecteur</td>
+                    <td>B04</td>
+                    <td>Epson</td>
+                    <td class="statut-alerte">Panne</td>
                     
                 </tr>
             </tbody>
         </table>
     </main>
+    <footer class="site-footer">
+        <p>© 2026 CampusLink</p>
+        
+
+    </footer>  
 </body>
 </html>
