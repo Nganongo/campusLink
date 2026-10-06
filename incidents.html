@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusLink -Incidents</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <h1>CampusLink</h1>
+            
+           <p>Gestion technique  du campus</p> 
+            
+        </div>
+        
+    </header>
+    <nav class="main-nav" aria-label="navigation principale">
+        <a href="index.html">Tableau de bord</a>
+        <a href="salles.html">Salles</a>
+        <a href="equipements.html">Equipements</a>
+        <a href="incidents.html" aria-current="page">Incidents</a>
+        <a href="declarer-incident.html">declarer un incident</a>
+    </nav>
+    <main class="container">
+        <section>
+            <h2>Equipements</h2>
+            <p>liste des equipements disponible</p>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Date</th>
+                    <th>Salle</th>
+                    <th>Equipement</th>
+                    <th>probleme</th>
+                    <th>Priorité</th>
+                    <th>statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>INC-01</td>
+                    <td><time datetime="2026-10-05T13:00">Lundi le 06 octobre à 12h</time></td>
+                    <td>B01</td>
+                    <td>Samsung</td>
+                    <td>Autres</td>
+                    <td>Moyenne</td>
+                    <td class="statut-ok">Resolue</td>
+                    
+                </tr>
+                <tr>
+                    <td>INC-02</td>
+                    <td><time datetime="2026-10-05T08:00">Lundi le 06 octobre à 8h</time></td>
+                    <td>B03</td>
+                    <td>Neant</td>
+                    <td>Reseau</td>
+                    <td>Haute</td>
+                    <td class="statut-alerte">Non resolu</td>
+                    
+                </tr>
+                <tr>
+                    <td>INC-03</td>
+                    <td><time datetime="2026-10-05T15:00">Lundi le 06 octobre à 15h</time></td>
+                    <td>B05</td>
+                    <td>Video projecteur</td>
+                    <td>Casse</td>
+                    <td>Moyenne</td>
+                    <td class="statut-attente">Encours</td>
+                    
+                </tr>
+                <tr>
+                    <td>INC-04</td>
+                    <td><time datetime="2026-10-05T14:00">Lundi le 06 octobre à 14h</time></td>
+                    <td>B07</td>
+                    <td>Ecran</td>
+                    <td>Panne</td>
+                    <td>Moyenne</td>
+                    <td class="statut-ok">Resolue</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer class="site-footer">
+        <p>© 2026 CampusLink</p>
+        
+
+    </footer>  
+</body>
+</html>
